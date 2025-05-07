@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cepestine</title>
     <link rel="stylesheet" href="swiper-bundle.min.css">
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css">
 
     <!---glightbox link--->
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="glightbox.min.css" rel="stylesheet">
     
     <!---swiper link--->
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="swiper-bundle.min.css" rel="stylesheet">
     
     <!---box icon link--->
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="boxicons.min.css" rel="stylesheet">
     <link href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" rel="stylesheet">
 
     <!---remix icon link--->
@@ -40,7 +40,7 @@
         <div class=" flex-column">
             <!-- nav-profile-menu -->
             <div class="profile">
-              <img src="assets/img/profile-pic.png" alt="" class="img-fluid rounded-circle">
+              <img src="profile-pic.png" alt="" class="img-fluid rounded-circle">
               <h1 class="text-light"><a href="index2.html">Promise Korie</a></h1>
               <h2 class="text-light">* cepestine *</h2>
               <div class="social-links flex-center text-center">
@@ -70,8 +70,24 @@
     <section id="hero" class="hero">
         <div class="container" data-aos="fade-in">
             <h1>Promise Korie</h1>
-            <h4>I'm a <span class="typed" data-typed-items="Data Analyst, Business Analyst, Developer, Freelancer, Trainer"></span></h4>
-            <p class="">I analyse data and build pipe-lines to help improve and maintain sustainable personal and business growth.</p>
+            <h4>
+                I'm a 
+                <span 
+                    class="typed" 
+                    data-typed-items="
+                        Business Solutions Consultant,
+                        Project Manager & Strategic Analyst,
+                        Creative Services Specialist,
+                        Operations & Process Improvement Expert,
+                        Integrated Solutions Developer"
+                >
+                </span>
+            </h4>
+            <p class="">
+                "I specialize in analyzing data and building robust pipelines that drive sustainable business growth. 
+                By leveraging insights and optimizing processes, I help organizations enhance efficiency, 
+                make informed decisions, and achieve long-term success."
+            </p>
         </div>
     </section>
 
@@ -83,12 +99,13 @@
                 <div class="section-title">
                     <h1 class="section-title-01 flex-center">About</h1>
                     <h1 class="section-title-02 flex-center">About</h1>
-                    <h2>Business Analyst &amp; Developer.</h2>
+                    <h2>Business Solution Strategist</h2>
                     <p class="fst-italic">
-                        I analyse data and build pipe-lines to help improve and maintain sustainable personal and business growth.
-                        I analyse, design and develop information Pipelines for customers, specializing 
-                        in creating insightful Analysis, Dashboards and building Pipelines to drive 
-                        sustainable actualization of the organisations goals and objectives.
+                        Driven by a passion for innovation and a commitment to excellence, I bring a diverse set of skills 
+                        to every project I undertake. With a background spanning business analysis, project management, 
+                        and creative design, I thrive on helping businesses reach their full potential. My approach is 
+                        rooted in both strategic thinking and hands-on execution, ensuring each solution is tailored to 
+                        the unique needs of my clients.
                         <br>Check out my Portfolio.
                     </p>
                 </div>
@@ -96,7 +113,7 @@
                 <div class="about-content flex-center">
                     <!-- About Pics -->
                     <div class=" about-img flex-center" data-aos="fade-right">
-                        <img src="assets/img/profile-pic.png" class="img-fluid" alt="">
+                        <img src="profile-pic.png" class="img-fluid" alt="">
                     </div>
                     <!-- About Details -->
                     <div class="content" data-aos="fade-left">
@@ -104,7 +121,7 @@
                         <div class="bio-row">
                             <div class="">
                                 <ul>
-                                    <li><i class="ri-arrow-right-s-line"></i> <strong>Birthday:</strong> <span>13 Feb</span></li>
+                                    <li><i class="ri-arrow-right-s-line"></i> <strong>Birthday:</strong> <span>13 Feb 1991</span></li>
                                     <li><i class="ri-arrow-right-s-line"></i> <strong>Website:</strong> <span>www.cepestine.com</span></li>
                                     <li><i class="ri-arrow-right-s-line"></i> <strong>Phone:</strong> <span>+2348036380932</span></li>
                                     <li><i class="ri-arrow-right-s-line"></i> <strong>City:</strong> <span>Lagos, Nigeria.</span></li>
@@ -112,7 +129,7 @@
                             </div>
                             <div class="">
                                 <ul>
-                                    <li><i class="ri-arrow-right-s-line"></i> <strong>Age:</strong> <span>89</span></li>
+                                    <li><i class="ri-arrow-right-s-line"></i> <strong>Age:</strong> <span id="age"></span></li>
                                     <li><i class="ri-arrow-right-s-line"></i> <strong>Degree:</strong> <span>Bsc</span></li>
                                     <li><i class="ri-arrow-right-s-line"></i> <strong>Email:</strong> <span>cepestine@gmail.com</span></li>
                                     <li><i class="ri-arrow-right-s-line"></i> <strong>Freelance:</strong> <span>Available</span></li>
@@ -125,9 +142,9 @@
                             <div class="section-subtitle">                
                                 <h2>Facts</h2>
                                 <p>
-                                    I analyse, design and develop information Pipelines for customers, specializing 
-                                    in creating insightful Analysis, Dashboards and building Pipelines to drive 
-                                    sustainable actualization of the organisations goals and objectives.
+                                    Here are a few highlights that showcase our journey, achievements, and impact. These numbers 
+                                    reflect the dedication, trust, and success that define our work and our commitment to delivering 
+                                    exceptional results.
                                 </p>
                             </div>
                             <!-- Facts Row -->
@@ -176,9 +193,10 @@
                     <h1 class="section-title-02-sbg flex-center">Skills</h1>
                     <h2>Skills</h2>
                     <p>
-                        For more than 6 years our experts have been accomplishing enough with modern 
-                        technologies and tools to make sure that we are able to provide the best 
-                        services to our customers
+                        A blend of technical expertise, strategic insight, and creative problem-solving defines my 
+                        skill set. These core skills empower me to deliver impactful solutions and drive success 
+                        across projects. From data analysis and project management to design and automation, each 
+                        skill reflects a commitment to excellence and continuous improvement.
                     </p>
                 </div>
                 <!-- Content -->
@@ -352,9 +370,11 @@
                         <h4>PROMISE KORIE</h4>
                         <p>
                             <em>
-                                Innovative and deadline-driven Busines Analyst with 5+ years of experience analysing 
-                                and developing data pipelines for different industries from initial concept to final, 
-                                polished deliverable.
+                                With a proven track record across various industries, my resume highlights the skills, 
+                                accomplishments, and experiences that drive results. From project leadership and analytical 
+                                expertise to creative problem-solving, each role has contributed to a diverse, adaptable skill 
+                                set tailored to meet the demands of today’s fast-paced business environment.
+                                <br>
                                 A solution-minded analyst with expertise at increasing operational output by assessing 
                                 operations, creating forecasts and managing change. Highly skilled in planning, monitoring 
                                 and evaluation, forecasting and problem solving. Organized and clear communicator with record 
@@ -457,14 +477,19 @@
                     <h1 class="section-title-01 flex-center">Services</h1>
                     <h1 class="section-title-02 flex-center">Services</h1>
                     <h2>What I provide</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <p>
+                        We offer a comprehensive suite of services designed to help businesses thrive in today’s dynamic
+                        landscape. From strategic analysis and project management to branding, web development, and 
+                        system automation, each service is tailored to drive efficiency, growth, and lasting impact. 
+                        Discover how we can support your unique needs and bring your vision to life.
+                    </p>
                 </div>
                 <div class="content">
                     <div class="service-list">
                         <div class="service-container" data-aos="fade-up" data-aos-delay="100">
                             <div class="service-card">
                             <div class="icons">
-                                <img src="assets/img/s-5.png" alt="">
+                                <img src="s-5.png" alt="">
                             </div>
                             <h3>Business Analysis</h3>
                             <div class="learn-more-btn">
@@ -494,7 +519,7 @@
                         <div class="service-container" data-aos="fade-up" data-aos-delay="100">
                             <div class="service-card">
                             <div class="icons">
-                                <img src="assets/img/s-2.png" alt="">
+                                <img src="s-2.png" alt="">
                             </div>
                             <h3>Project Management</h3>
                             <div class="learn-more-btn">
@@ -524,7 +549,7 @@
                         <div class="service-container" data-aos="fade-up" data-aos-delay="200">
                             <div class="service-card">
                             <div class="icons">
-                                <img src="assets/img/s-5.png" alt="">
+                                <img src="s-5.png" alt="">
                             </div>
                             <h3>Excel Consultancy</h3>
                             <div class="learn-more-btn">
@@ -554,7 +579,7 @@
                         <div class="service-container" data-aos="fade-up" data-aos-delay="200">
                             <div class="service-card">
                             <div class="icons">
-                                <img src="assets/img/s-5.png" alt="">
+                                <img src="s-5.png" alt="">
                             </div>
                             <h3>Branding & Design</h3>
                             <div class="learn-more-btn">
@@ -585,7 +610,7 @@
                         <div class="service-container" data-aos="fade-up" data-aos-delay="300">
                             <div class="service-card">
                             <div class="icons">
-                                <img src="assets/img/s-5.png" alt="">
+                                <img src="s-5.png" alt="">
                             </div>
                             <h3>Web Development</h3>
                             <div class="learn-more-btn">
@@ -613,7 +638,7 @@
                         <div class="service-container" data-aos="fade-up" data-aos-delay="400">
                             <div class="service-card">
                             <div class="icons">
-                                <img src="assets/img/s-4.png" alt="">
+                                <img src="s-4.png" alt="">
                             </div>
                                 <h3>System Automation</h3>
                                 <div class="learn-more-btn">
@@ -641,7 +666,7 @@
                         <div class="service-container" data-aos="fade-up" data-aos-delay="500">
                             <div class="service-card">
                             <div class="icons">
-                                <img src="assets/img/s-3.png" alt="">
+                                <img src="s-3.png" alt="">
                             </div>
                             <h3>Production Planning</h3>
                             <div class="learn-more-btn">
@@ -669,7 +694,7 @@
                         <div class="service-container" data-aos="fade-up" data-aos-delay="500">
                             <div class="service-card">
                             <div class="icons">
-                                <img src="assets/img/s-1.png" alt="">
+                                <img src="s-1.png" alt="">
                             </div>
                             <h3>Database Management</h3>
                             <div class="learn-more-btn">
@@ -707,7 +732,11 @@
                     <h1 class="section-title-01-sbg flex-center">Portfolio</h1>
                     <h1 class="section-title-02-sbg flex-center">Portfolio</h1>
                     <h2>What I provide</h2>                    
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <p>
+                        Explore a selection of our projects, each reflecting our dedication to quality, creativity, 
+                        and results-driven solutions. From business analysis and project management to web development 
+                        and branding, our portfolio showcases the diverse skills and expertise we bring to every partnership.
+                    </p>
                 </div>
                 <!-- Portfolio Filter Tab -->
                 <div class="row" data-aos="fade-up">
@@ -715,25 +744,27 @@
                         <ul id="portfolio-flters">
                             <li class="data-tab active" data-filter="all">All</li>
                             <li class="data-tab" data-filter="filter-app">App</li>
-                            <li class="data-tab" data-filter="filter-template">Template</li>
+                            <li class="data-tab" data-filter="filter-excel">Excel</li>
+                            <li class="data-tab" data-filter="filter-powerbi">Power-BI</li>
                             <li class="data-tab" data-filter="filter-web">Web</li>
+                            <li class="data-tab" data-filter="filter-template">Template</li>
                         </ul>
                     </div>
                 </div>
                 <!-- Portfolio List -->
                 <div class="content" data-aos="fade-up" data-aos-delay="100">
                     <div class="portfolio-list portfolio-container">
-                        <!-- Portfolio 1 -->
+                        <!-- Portfolio 1_A1 -->
                         <div class=" portfolio-item filter-app">
                             <div class="img-card portfolio-wrap">
                                 <div class="overlay"></div>
-                                <img src="assets/img/portfolio/Excel_dashboard 1.jpg" class="img-fluid" alt="">
+                                <img src="assets/portfolio section/App/i/p1.png" class="img-fluid" alt="">
                                 <div class="info">
-                                    <h3>Data Analysis</h3>
-                                    <span>Youtube</span>
+                                    <h3>Retail ERP</h3>
+                                    <span>Reports</span>
                                 </div>
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/Excel_dashboard 1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="ri-add-line"></i></a>
+                                    <a href="assets/portfolio section/App/i/p1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="ri-add-line"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
                                 </div>
                             </div>
@@ -741,36 +772,37 @@
                                 <div class="portfolio-model-body">
                                     <i class="fas fa-times portfolio-close-btn"></i>
                                     <div class="card-title">
-                                        <h3>Data Analysis</h3>
+                                        <h3>Retail ERP</h3>
                                         <a href=""><i class="ri-github-fill"></i></a>
                                     </div>
                                     <div class="swiper portfolio-data-swiper">
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
-                                                <img src="assets/img/portfolio/Excel_dashboard 1.jpg" alt="">
-                                                <h4>Dashboards</h4>
+                                                <img src="assets/portfolio section/App/i/p1.png" alt="">
+                                                <h4>Sales Dashboards</h4>
                                                 <p>
-                                                    cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
-                                                    vitae consectetur. Quia voluptates asperiores consequatur, fugiat iste architecto velit odit 
-                                                    deleniti. Officiis hic voluptatem vero tenetur assumenda at.
+                                                    This gives a brief overview of sales performance.
                                                 </p>    
                                             </div>
                                             <div class="swiper-slide">
-                                                <img src="assets/img/portfolio/Excel_dashboard 3.jpg" alt="">
-                                                <h4>Dashboards</h4>
+                                                <img src="assets/portfolio section/App/i/p2.png" alt="">
+                                                <h4>Financial Statements</h4>
                                                 <p>
-                                                    cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
-                                                    vitae consectetur. Quia voluptates asperiores consequatur, fugiat iste architecto velit odit 
-                                                    deleniti. Officiis hic voluptatem vero tenetur assumenda at.
+                                                    Financial Statements to give you a quick overview of your financial positions at a given period.
                                                 </p>    
                                             </div>
                                             <div class="swiper-slide">
-                                                <img src="assets/img/portfolio/Excel_dashboard 2.jpg" alt="">
-                                                <h4>Dashboards</h4>
+                                                <img src="assets/portfolio section/App/i/p3.png" alt="">
+                                                <h4>Data Entry</h4>
                                                 <p>
-                                                    cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
-                                                    vitae consectetur. Quia voluptates asperiores consequatur, fugiat iste architecto velit odit 
-                                                    deleniti. Officiis hic voluptatem vero tenetur assumenda at.
+                                                    Data enry for Sales, purchases and all financial transactions.
+                                                </p>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/App/i/p4.png" alt="">
+                                                <h4>Transactions View</h4>
+                                                <p>
+                                                    Transaction drilldown view
                                                 </p>    
                                             </div>
                                         </div>
@@ -785,17 +817,17 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Portfolio 2 -->
+                        <!-- Portfolio 2_A2 -->
                         <div class=" portfolio-item filter-app">
                             <div class="img-card portfolio-wrap">
                                 <div class="overlay"></div>
-                                <img src="assets/img/portfolio/Excel_dashboard 2.jpg" class="img-fluid" alt="">
+                                <img src="assets/portfolio section/App/Excel_Macros 1.jpg" class="img-fluid" alt="">
                                 <div class="info">
                                     <h3>Data Analysis</h3>
                                     <span>Youtube</span>
                                 </div>
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/Excel_dashboard 2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="ri-add-line"></i></a>
+                                    <a href="assets/portfolio section/App/Excel_Macros 1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="ri-add-line"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
                                 </div>
                             </div>
@@ -809,7 +841,7 @@
                                     <div class="swiper portfolio-data-swiper">
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
-                                                <img src="assets/img/portfolio/Excel_Macros 1ii.jpg" alt="">
+                                                <img src="assets/portfolio section/App/Excel_Macros 1.jpg" alt="">
                                                 <h4>Dashboards</h4>
                                                 <p>
                                                     cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
@@ -818,7 +850,7 @@
                                                 </p>    
                                             </div>
                                             <div class="swiper-slide">
-                                                <img src="assets/img/portfolio/Excel_dashboard 3.jpg" alt="">
+                                                <img src="assets/portfolio section/App/Excel_Macros 1ii.jpg" alt="">
                                                 <h4>Dashboards</h4>
                                                 <p>
                                                     cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
@@ -827,7 +859,7 @@
                                                 </p>    
                                             </div>
                                             <div class="swiper-slide">
-                                                <img src="assets/img/portfolio/Excel_dashboard 2.jpg" alt="">
+                                                <img src="assets/portfolio section/App/Excel_Macros 1iii.jpg" alt="">
                                                 <h4>Dashboards</h4>
                                                 <p>
                                                     cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
@@ -847,141 +879,17 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Portfolio 3 -->
-                        <div class=" portfolio-item filter-web">
-                            <div class="img-card portfolio-wrap">
-                                <div class="overlay"></div>
-                                <img src="assets/img/portfolio/Excel_Macros 1.jpg" class="img-fluid" alt="">
-                                <div class="info">
-                                    <h3>Data Analysis</h3>
-                                    <span>Youtube</span>
-                                </div>
-                                <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/Excel_Macros 1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 1"><i class="ri-add-line"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
-                                </div>
-                            </div>
-                            <div class="portfolio-model flex-center">
-                                <div class="portfolio-model-body">
-                                    <i class="fas fa-times portfolio-close-btn"></i>
-                                    <div class="card-title">
-                                        <h3>Data Analysis</h3>
-                                        <a href=""><i class="ri-github-fill"></i></a>
-                                    </div>
-                                    <div class="swiper portfolio-data-swiper">
-                                        <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
-                                                <img src="assets/img/portfolio/Excel_dashboard 1.jpg" alt="">
-                                                <h4>Dashboards</h4>
-                                                <p>
-                                                    cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
-                                                    vitae consectetur. Quia voluptates asperiores consequatur, fugiat iste architecto velit odit 
-                                                    deleniti. Officiis hic voluptatem vero tenetur assumenda at.
-                                                </p>    
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <img src="assets/img/portfolio/Excel_macros 1.jpg" alt="">
-                                                <h4>Dashboards</h4>
-                                                <p>
-                                                    cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
-                                                    vitae consectetur. Quia voluptates asperiores consequatur, fugiat iste architecto velit odit 
-                                                    deleniti. Officiis hic voluptatem vero tenetur assumenda at.
-                                                </p>    
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <img src="assets/img/portfolio/Excel_dashboard 2.jpg" alt="">
-                                                <h4>Dashboards</h4>
-                                                <p>
-                                                    cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
-                                                    vitae consectetur. Quia voluptates asperiores consequatur, fugiat iste architecto velit odit 
-                                                    deleniti. Officiis hic voluptatem vero tenetur assumenda at.
-                                                </p>    
-                                            </div>
-                                        </div>
-                                        <div class="swiper-button-next swiper-btn">
-                                            <i class="fas fa-chevron-right"></i>
-                                        </div>
-                                        <div class="swiper-button-prev swiper-btn">
-                                            <i class="fas fa-chevron-left"></i>
-                                        </div>
-                                        <div class="swiper-pagination"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Portfolio 4 -->
-                        <div class=" portfolio-item filter-template">
-                            <div class="img-card portfolio-wrap">
-                                <div class="overlay"></div>
-                                <img src="assets/img/portfolio/Excel_Macros 1ii.jpg" class="img-fluid" alt="">
-                                <div class="info">
-                                    <h3>Data Analysis</h3>
-                                    <span>Youtube</span>
-                                </div>
-                                <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/Excel_Macros 1ii.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="ri-add-line"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
-                                </div>
-                            </div>
-                            <div class="portfolio-model flex-center">
-                                <div class="portfolio-model-body">
-                                    <i class="fas fa-times portfolio-close-btn"></i>
-                                    <div class="card-title">
-                                        <h3>Data Analysis</h3>
-                                        <a href=""><i class="ri-github-fill"></i></a>
-                                    </div>
-                                    <div class="swiper portfolio-data-swiper">
-                                        <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
-                                                <img src="assets/img/portfolio/Excel_dashboard 1.jpg" alt="">
-                                                <h4>Dashboards</h4>
-                                                <p>
-                                                    cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
-                                                    vitae consectetur. Quia voluptates asperiores consequatur, fugiat iste architecto velit odit 
-                                                    deleniti. Officiis hic voluptatem vero tenetur assumenda at.
-                                                </p>    
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <img src="assets/img/portfolio/Excel_dashboard 3.jpg" alt="">
-                                                <h4>Dashboards</h4>
-                                                <p>
-                                                    cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
-                                                    vitae consectetur. Quia voluptates asperiores consequatur, fugiat iste architecto velit odit 
-                                                    deleniti. Officiis hic voluptatem vero tenetur assumenda at.
-                                                </p>    
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <img src="assets/img/portfolio/Excel_dashboard 2.jpg" alt="">
-                                                <h4>Dashboards</h4>
-                                                <p>
-                                                    cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
-                                                    vitae consectetur. Quia voluptates asperiores consequatur, fugiat iste architecto velit odit 
-                                                    deleniti. Officiis hic voluptatem vero tenetur assumenda at.
-                                                </p>    
-                                            </div>
-                                        </div>
-                                        <div class="swiper-button-next swiper-btn">
-                                            <i class="fas fa-chevron-right"></i>
-                                        </div>
-                                        <div class="swiper-button-prev swiper-btn">
-                                            <i class="fas fa-chevron-left"></i>
-                                        </div>
-                                        <div class="swiper-pagination"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Portfolio 5 -->
+                        <!-- Portfolio 3_A3 -->
                         <div class=" portfolio-item filter-app">
                             <div class="img-card portfolio-wrap">
                                 <div class="overlay"></div>
-                                <img src="assets/img/portfolio/Excel_dashboard 3.jpg" class="img-fluid" alt="">
+                                <img src="assets/portfolio section/App/Excel_Macros 1.jpg" class="img-fluid" alt="">
                                 <div class="info">
                                     <h3>Data Analysis</h3>
                                     <span>Youtube</span>
                                 </div>
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/Excel_dashboard 3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="ri-add-line"></i></a>
+                                    <a href="assets/portfolio section/App/Excel_Macros 1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="ri-add-line"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
                                 </div>
                             </div>
@@ -995,7 +903,7 @@
                                     <div class="swiper portfolio-data-swiper">
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
-                                                <img src="assets/img/portfolio/Excel_dashboard 1.jpg" alt="">
+                                                <img src="assets/portfolio section/App/Excel_Macros 1.jpg" alt="">
                                                 <h4>Dashboards</h4>
                                                 <p>
                                                     cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
@@ -1004,7 +912,7 @@
                                                 </p>    
                                             </div>
                                             <div class="swiper-slide">
-                                                <img src="assets/img/portfolio/Excel_dashboard 3.jpg" alt="">
+                                                <img src="assets/portfolio section/App/Excel_Macros 1ii.jpg" alt="">
                                                 <h4>Dashboards</h4>
                                                 <p>
                                                     cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
@@ -1013,7 +921,7 @@
                                                 </p>    
                                             </div>
                                             <div class="swiper-slide">
-                                                <img src="assets/img/portfolio/Excel_dashboard 2.jpg" alt="">
+                                                <img src="assets/portfolio section/App/Excel_Macros 1iii.jpg" alt="">
                                                 <h4>Dashboards</h4>
                                                 <p>
                                                     cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
@@ -1033,17 +941,17 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Portfolio 6 -->
-                        <div class=" portfolio-item filter-template">
+                        <!-- Portfolio 4_A4 -->
+                        <div class=" portfolio-item filter-app">
                             <div class="img-card portfolio-wrap">
                                 <div class="overlay"></div>
-                                <img src="assets/img/portfolio/Excel_Macros 1iii.jpg" class="img-fluid" alt="">
+                                <img src="assets/portfolio section/App/Excel_Macros 1.jpg" class="img-fluid" alt="">
                                 <div class="info">
                                     <h3>Data Analysis</h3>
                                     <span>Youtube</span>
                                 </div>
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/Excel_Macros 1iii.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="ri-add-line"></i></a>
+                                    <a href="assets/portfolio section/App/Excel_Macros 1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="ri-add-line"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
                                 </div>
                             </div>
@@ -1057,7 +965,7 @@
                                     <div class="swiper portfolio-data-swiper">
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
-                                                <img src="assets/img/portfolio/Excel_dashboard 1.jpg" alt="">
+                                                <img src="assets/portfolio section/App/Excel_Macros 1.jpg" alt="">
                                                 <h4>Dashboards</h4>
                                                 <p>
                                                     cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
@@ -1066,7 +974,7 @@
                                                 </p>    
                                             </div>
                                             <div class="swiper-slide">
-                                                <img src="assets/img/portfolio/Excel_dashboard 3.jpg" alt="">
+                                                <img src="assets/portfolio section/App/Excel_Macros 1ii.jpg" alt="">
                                                 <h4>Dashboards</h4>
                                                 <p>
                                                     cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
@@ -1075,7 +983,7 @@
                                                 </p>    
                                             </div>
                                             <div class="swiper-slide">
-                                                <img src="assets/img/portfolio/Excel_dashboard 2.jpg" alt="">
+                                                <img src="assets/portfolio section/App/Excel_Macros 1iii.jpg" alt="">
                                                 <h4>Dashboards</h4>
                                                 <p>
                                                     cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
@@ -1095,17 +1003,725 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Portfolio 7 -->
+                        <!-- Portfolio 5_E1 -->
+                        <div class=" portfolio-item filter-excel">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/Excel/i/p1.png" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Sales Reports</h3>
+                                    <span>Reports</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/Excel/i/p1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Sales Reports</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Excel/i/p1.png" alt="">
+                                                <h4>Sales Trends</h4>
+                                                <p>
+                                                    Dynamic Sales Trends
+                                                </p>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Excel/i/p2.png" alt="">
+                                                <h4>Delivery vs Plan Adherence</h4>
+                                                <p>
+                                                    Delivery vs Plan Adherence 
+                                                </p>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Excel/i/p3.png" alt="">
+                                                <h4>Daily Production Output</h4>
+                                                <p>
+                                                    Daily Production Output.
+                                                </p>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <p>
+                                                    All report is fully automated and dynamic.
+                                                    From planning to delivery.
+                                                </p>    
+                                            </div>
+                                        </div>
+                                        <div class="swiper-button-next swiper-btn">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </div>
+                                        <div class="swiper-button-prev swiper-btn">
+                                            <i class="fas fa-chevron-left"></i>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 6_E2 -->
+                        <div class=" portfolio-item filter-excel">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/Excel/Excel_dashboard 1.jpg" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Data Analysis</h3>
+                                    <span>Youtube</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/Excel/Excel_dashboard 1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Data Analysis</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Excel/Excel_dashboard 1.jpg" alt="">
+                                                <h4>Dashboards</h4>
+                                                <p>
+                                                    cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
+                                                    vitae consectetur. Quia voluptates asperiores consequatur, fugiat iste architecto velit odit 
+                                                    deleniti. Officiis hic voluptatem vero tenetur assumenda at.
+                                                </p>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Excel/Excel_dashboard 2.jpg" alt="">
+                                                <h4>Dashboards</h4>
+                                                <p>
+                                                    cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
+                                                    vitae consectetur. Quia voluptates asperiores consequatur, fugiat iste architecto velit odit 
+                                                    deleniti. Officiis hic voluptatem vero tenetur assumenda at.
+                                                </p>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Excel/Excel_dashboard 3.jpg" alt="">
+                                                <h4>Dashboards</h4>
+                                                <p>
+                                                    cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
+                                                    vitae consectetur. Quia voluptates asperiores consequatur, fugiat iste architecto velit odit 
+                                                    deleniti. Officiis hic voluptatem vero tenetur assumenda at.
+                                                </p>    
+                                            </div>
+                                        </div>
+                                        <div class="swiper-button-next swiper-btn">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </div>
+                                        <div class="swiper-button-prev swiper-btn">
+                                            <i class="fas fa-chevron-left"></i>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 7_E3 -->
+                        <div class=" portfolio-item filter-excel">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/Excel/Excel_dashboard 1.jpg" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Data Analysis</h3>
+                                    <span>Youtube</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/Excel/Excel_dashboard 1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Data Analysis</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Excel/Excel_dashboard 1.jpg" alt="">
+                                                <h4>Dashboards</h4>
+                                                <p>
+                                                    cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
+                                                    vitae consectetur. Quia voluptates asperiores consequatur, fugiat iste architecto velit odit 
+                                                    deleniti. Officiis hic voluptatem vero tenetur assumenda at.
+                                                </p>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Excel/Excel_dashboard 2.jpg" alt="">
+                                                <h4>Dashboards</h4>
+                                                <p>
+                                                    cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
+                                                    vitae consectetur. Quia voluptates asperiores consequatur, fugiat iste architecto velit odit 
+                                                    deleniti. Officiis hic voluptatem vero tenetur assumenda at.
+                                                </p>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Excel/Excel_dashboard 3.jpg" alt="">
+                                                <h4>Dashboards</h4>
+                                                <p>
+                                                    cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
+                                                    vitae consectetur. Quia voluptates asperiores consequatur, fugiat iste architecto velit odit 
+                                                    deleniti. Officiis hic voluptatem vero tenetur assumenda at.
+                                                </p>    
+                                            </div>
+                                        </div>
+                                        <div class="swiper-button-next swiper-btn">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </div>
+                                        <div class="swiper-button-prev swiper-btn">
+                                            <i class="fas fa-chevron-left"></i>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 8_E4 -->
+                        <div class=" portfolio-item filter-excel">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/Excel/Excel_dashboard 1.jpg" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Data Analysis</h3>
+                                    <span>Youtube</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/Excel/Excel_dashboard 1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Data Analysis</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Excel/Excel_dashboard 1.jpg" alt="">
+                                                <h4>Dashboards</h4>
+                                                <p>
+                                                    cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
+                                                    vitae consectetur. Quia voluptates asperiores consequatur, fugiat iste architecto velit odit 
+                                                    deleniti. Officiis hic voluptatem vero tenetur assumenda at.
+                                                </p>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Excel/Excel_dashboard 2.jpg" alt="">
+                                                <h4>Dashboards</h4>
+                                                <p>
+                                                    cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
+                                                    vitae consectetur. Quia voluptates asperiores consequatur, fugiat iste architecto velit odit 
+                                                    deleniti. Officiis hic voluptatem vero tenetur assumenda at.
+                                                </p>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Excel/Excel_dashboard 3.jpg" alt="">
+                                                <h4>Dashboards</h4>
+                                                <p>
+                                                    cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
+                                                    vitae consectetur. Quia voluptates asperiores consequatur, fugiat iste architecto velit odit 
+                                                    deleniti. Officiis hic voluptatem vero tenetur assumenda at.
+                                                </p>    
+                                            </div>
+                                        </div>
+                                        <div class="swiper-button-next swiper-btn">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </div>
+                                        <div class="swiper-button-prev swiper-btn">
+                                            <i class="fas fa-chevron-left"></i>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 9_E5 -->
+                        <div class=" portfolio-item filter-excel">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/Excel/Excel_dashboard 1.jpg" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Data Analysis</h3>
+                                    <span>Youtube</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/Excel/Excel_dashboard 1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Data Analysis</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Excel/Excel_dashboard 1.jpg" alt="">
+                                                <h4>Dashboards</h4>
+                                                <p>
+                                                    cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
+                                                    vitae consectetur. Quia voluptates asperiores consequatur, fugiat iste architecto velit odit 
+                                                    deleniti. Officiis hic voluptatem vero tenetur assumenda at.
+                                                </p>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Excel/Excel_dashboard 2.jpg" alt="">
+                                                <h4>Dashboards</h4>
+                                                <p>
+                                                    cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
+                                                    vitae consectetur. Quia voluptates asperiores consequatur, fugiat iste architecto velit odit 
+                                                    deleniti. Officiis hic voluptatem vero tenetur assumenda at.
+                                                </p>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Excel/Excel_dashboard 3.jpg" alt="">
+                                                <h4>Dashboards</h4>
+                                                <p>
+                                                    cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
+                                                    vitae consectetur. Quia voluptates asperiores consequatur, fugiat iste architecto velit odit 
+                                                    deleniti. Officiis hic voluptatem vero tenetur assumenda at.
+                                                </p>    
+                                            </div>
+                                        </div>
+                                        <div class="swiper-button-next swiper-btn">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </div>
+                                        <div class="swiper-button-prev swiper-btn">
+                                            <i class="fas fa-chevron-left"></i>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 10_E6 -->
+                        <div class=" portfolio-item filter-excel">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/Excel/Excel_dashboard 1.jpg" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Data Analysis</h3>
+                                    <span>Youtube</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/Excel/Excel_dashboard 1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Data Analysis</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Excel/Excel_dashboard 1.jpg" alt="">
+                                                <h4>Dashboards</h4>
+                                                <p>
+                                                    cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
+                                                    vitae consectetur. Quia voluptates asperiores consequatur, fugiat iste architecto velit odit 
+                                                    deleniti. Officiis hic voluptatem vero tenetur assumenda at.
+                                                </p>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Excel/Excel_dashboard 2.jpg" alt="">
+                                                <h4>Dashboards</h4>
+                                                <p>
+                                                    cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
+                                                    vitae consectetur. Quia voluptates asperiores consequatur, fugiat iste architecto velit odit 
+                                                    deleniti. Officiis hic voluptatem vero tenetur assumenda at.
+                                                </p>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Excel/Excel_dashboard 3.jpg" alt="">
+                                                <h4>Dashboards</h4>
+                                                <p>
+                                                    cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
+                                                    vitae consectetur. Quia voluptates asperiores consequatur, fugiat iste architecto velit odit 
+                                                    deleniti. Officiis hic voluptatem vero tenetur assumenda at.
+                                                </p>    
+                                            </div>
+                                        </div>
+                                        <div class="swiper-button-next swiper-btn">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </div>
+                                        <div class="swiper-button-prev swiper-btn">
+                                            <i class="fas fa-chevron-left"></i>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 11_P1 -->
+                        <div class=" portfolio-item filter-powerbi">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/PBI/i/DB.png" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Production Analysis</h3>
+                                    <span>Youtube</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/PBI/i/DB.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Production Analysis</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/PBI/i/DB.png" alt="">
+                                                <h4>Delivery Trends</h4>
+                                                <p>
+                                                    This shows the delivery performance against the planned delivery and generated orders.
+                                                </p>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/PBI/i/DBi.png" alt="">
+                                                <h4>Production Dashboard</h4>
+                                                <p>
+                                                    Production Summary
+                                                </p>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/PBI/i/DBii.png" alt="">
+                                                <h4>Production Downtime Report</h4>
+                                                <p>
+                                                    Downtime Summary Reports
+                                                </p>    
+                                            </div>
+                                        </div>
+                                        <div class="swiper-button-next swiper-btn">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </div>
+                                        <div class="swiper-button-prev swiper-btn">
+                                            <i class="fas fa-chevron-left"></i>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 12_P2 -->
+                        <div class=" portfolio-item filter-powerbi">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/PBI/ii/p1.png" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Downtime Analysis</h3>
+                                    <span>Sample Doc.</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/PBI/ii/p1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Production Downtime Analysis</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/PBI/ii/p1.png" alt="">
+                                                <h4>Dashboard 1</h4>
+                                                <p>
+                                                    Summary
+                                                </p>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/PBI/ii/p2.png" alt="">
+                                                <h4>Dashboard 2</h4>
+                                                <p>
+                                                    Breakdown 1
+                                                </p>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/PBI/ii/p3.png" alt="">
+                                                <h4>Dashboard 3s</h4>
+                                                <p>
+                                                    Breakdown 1
+                                                </p>    
+                                            </div>
+                                        </div>
+                                        <div class="swiper-button-next swiper-btn">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </div>
+                                        <div class="swiper-button-prev swiper-btn">
+                                            <i class="fas fa-chevron-left"></i>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 13_P3 -->
+                        <div class=" portfolio-item filter-powerbi">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/PBI/i/DB.png" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Production Analysis</h3>
+                                    <span>Youtube</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/PBI/i/DB.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Production Analysis</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/PBI/i/DB.png" alt="">
+                                                <h4>Delivery Trends</h4>
+                                                <p>
+                                                    This shows the delivery performance against the planned delivery and generated orders.
+                                                </p>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/PBI/i/DBi.png" alt="">
+                                                <h4>Production Dashboard</h4>
+                                                <p>
+                                                    Production Summary
+                                                </p>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/PBI/i/DBii.png" alt="">
+                                                <h4>Production Downtime Report</h4>
+                                                <p>
+                                                    Downtime Summary Reports
+                                                </p>    
+                                            </div>
+                                        </div>
+                                        <div class="swiper-button-next swiper-btn">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </div>
+                                        <div class="swiper-button-prev swiper-btn">
+                                            <i class="fas fa-chevron-left"></i>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 14_P4 -->
+                        <div class=" portfolio-item filter-powerbi">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/PBI/ii/p1.png" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Downtime Analysis</h3>
+                                    <span>Sample Doc.</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/PBI/ii/p1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Production Downtime Analysis</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/PBI/ii/p1.png" alt="">
+                                                <h4>Dashboard 1</h4>
+                                                <p>
+                                                    Summary
+                                                </p>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/PBI/ii/p2.png" alt="">
+                                                <h4>Dashboard 2</h4>
+                                                <p>
+                                                    Breakdown 1
+                                                </p>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/PBI/ii/p3.png" alt="">
+                                                <h4>Dashboard 3s</h4>
+                                                <p>
+                                                    Breakdown 1
+                                                </p>    
+                                            </div>
+                                        </div>
+                                        <div class="swiper-button-next swiper-btn">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </div>
+                                        <div class="swiper-button-prev swiper-btn">
+                                            <i class="fas fa-chevron-left"></i>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 15_P5 -->
+                        <div class=" portfolio-item filter-powerbi">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/PBI/i/DB.png" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Production Analysis</h3>
+                                    <span>Youtube</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/PBI/i/DB.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Production Analysis</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/PBI/i/DB.png" alt="">
+                                                <h4>Delivery Trends</h4>
+                                                <p>
+                                                    This shows the delivery performance against the planned delivery and generated orders.
+                                                </p>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/PBI/i/DBi.png" alt="">
+                                                <h4>Production Dashboard</h4>
+                                                <p>
+                                                    Production Summary
+                                                </p>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/PBI/i/DBii.png" alt="">
+                                                <h4>Production Downtime Report</h4>
+                                                <p>
+                                                    Downtime Summary Reports
+                                                </p>    
+                                            </div>
+                                        </div>
+                                        <div class="swiper-button-next swiper-btn">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </div>
+                                        <div class="swiper-button-prev swiper-btn">
+                                            <i class="fas fa-chevron-left"></i>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 16_P6 -->
+                        <div class=" portfolio-item filter-powerbi">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/PBI/ii/p1.png" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Downtime Analysis</h3>
+                                    <span>Sample Doc.</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/PBI/ii/p1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Production Downtime Analysis</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/PBI/ii/p1.png" alt="">
+                                                <h4>Dashboard 1</h4>
+                                                <p>
+                                                    Summary
+                                                </p>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/PBI/ii/p2.png" alt="">
+                                                <h4>Dashboard 2</h4>
+                                                <p>
+                                                    Breakdown 1
+                                                </p>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/PBI/ii/p3.png" alt="">
+                                                <h4>Dashboard 3s</h4>
+                                                <p>
+                                                    Breakdown 1
+                                                </p>    
+                                            </div>
+                                        </div>
+                                        <div class="swiper-button-next swiper-btn">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </div>
+                                        <div class="swiper-button-prev swiper-btn">
+                                            <i class="fas fa-chevron-left"></i>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 17_W1 -->
                         <div class=" portfolio-item filter-web">
                             <div class="img-card portfolio-wrap">
                                 <div class="overlay"></div>
-                                <img src="assets/img/portfolio/Excel_dashboard 1.jpg" class="img-fluid" alt="">
+                                <img src="assets/portfolio section/Web/Excel_Macros 1.jpg" class="img-fluid" alt="">
                                 <div class="info">
-                                    <h3>Data Analysis</h3>
-                                    <span>Youtube</span>
+                                    <h3>Downtime Analysis</h3>
+                                    <span>Sample Doc.</span>
                                 </div>
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/Excel_dashboard 1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="ri-add-line"></i></a>
+                                    <a href="assets/portfolio section/Web/Excel_Macros 1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="ri-add-line"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
                                 </div>
                             </div>
@@ -1113,36 +1729,30 @@
                                 <div class="portfolio-model-body">
                                     <i class="fas fa-times portfolio-close-btn"></i>
                                     <div class="card-title">
-                                        <h3>Data Analysis</h3>
+                                        <h3>Production Downtime Analysis</h3>
                                         <a href=""><i class="ri-github-fill"></i></a>
                                     </div>
                                     <div class="swiper portfolio-data-swiper">
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
-                                                <img src="assets/img/portfolio/Excel_dashboard 1.jpg" alt="">
-                                                <h4>Dashboards</h4>
+                                                <img src="assets/portfolio section/Web/Excel_Macros 1.jpg" alt="">
+                                                <h4>Dashboard 1</h4>
                                                 <p>
-                                                    cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
-                                                    vitae consectetur. Quia voluptates asperiores consequatur, fugiat iste architecto velit odit 
-                                                    deleniti. Officiis hic voluptatem vero tenetur assumenda at.
+                                                    Summary
                                                 </p>    
                                             </div>
                                             <div class="swiper-slide">
-                                                <img src="assets/img/portfolio/Excel_dashboard 3.jpg" alt="">
-                                                <h4>Dashboards</h4>
+                                                <img src="assets/portfolio section/Web/Excel_Macros 1ii.jpg" alt="">
+                                                <h4>Dashboard 2</h4>
                                                 <p>
-                                                    cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
-                                                    vitae consectetur. Quia voluptates asperiores consequatur, fugiat iste architecto velit odit 
-                                                    deleniti. Officiis hic voluptatem vero tenetur assumenda at.
+                                                    Breakdown 1
                                                 </p>    
                                             </div>
                                             <div class="swiper-slide">
-                                                <img src="assets/img/portfolio/Excel_dashboard 2.jpg" alt="">
-                                                <h4>Dashboards</h4>
+                                                <img src="assets/portfolio section/Web/Excel_Macros 1iii.jpg" alt="">
+                                                <h4>Dashboard 3s</h4>
                                                 <p>
-                                                    cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
-                                                    vitae consectetur. Quia voluptates asperiores consequatur, fugiat iste architecto velit odit 
-                                                    deleniti. Officiis hic voluptatem vero tenetur assumenda at.
+                                                    Breakdown 1
                                                 </p>    
                                             </div>
                                         </div>
@@ -1157,79 +1767,185 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Portfolio 8 -->
-                        <div class=" portfolio-item filter-template">
-                            <div class="img-card portfolio-wrap">
-                                <div class="overlay"></div>
-                                <img src="assets/img/portfolio/Excel_dashboard 1.jpg" class="img-fluid" alt="">
-                                <div class="info">
-                                    <h3>Data Analysis</h3>
-                                    <span>Youtube</span>
-                                </div>
-                                <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/Excel_dashboard 1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="ri-add-line"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
-                                </div>
-                            </div>
-                            <div class="portfolio-model flex-center">
-                                <div class="portfolio-model-body">
-                                    <i class="fas fa-times portfolio-close-btn"></i>
-                                    <div class="card-title">
-                                        <h3>Data Analysis</h3>
-                                        <a href=""><i class="ri-github-fill"></i></a>
-                                    </div>
-                                    <div class="swiper portfolio-data-swiper">
-                                        <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
-                                                <img src="assets/img/portfolio/Excel_dashboard 1.jpg" alt="">
-                                                <h4>Dashboards</h4>
-                                                <p>
-                                                    cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
-                                                    vitae consectetur. Quia voluptates asperiores consequatur, fugiat iste architecto velit odit 
-                                                    deleniti. Officiis hic voluptatem vero tenetur assumenda at.
-                                                </p>    
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <img src="assets/img/portfolio/Excel_dashboard 3.jpg" alt="">
-                                                <h4>Dashboards</h4>
-                                                <p>
-                                                    cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
-                                                    vitae consectetur. Quia voluptates asperiores consequatur, fugiat iste architecto velit odit 
-                                                    deleniti. Officiis hic voluptatem vero tenetur assumenda at.
-                                                </p>    
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <img src="assets/img/portfolio/Excel_dashboard 2.jpg" alt="">
-                                                <h4>Dashboards</h4>
-                                                <p>
-                                                    cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
-                                                    vitae consectetur. Quia voluptates asperiores consequatur, fugiat iste architecto velit odit 
-                                                    deleniti. Officiis hic voluptatem vero tenetur assumenda at.
-                                                </p>    
-                                            </div>
-                                        </div>
-                                        <div class="swiper-button-next swiper-btn">
-                                            <i class="fas fa-chevron-right"></i>
-                                        </div>
-                                        <div class="swiper-button-prev swiper-btn">
-                                            <i class="fas fa-chevron-left"></i>
-                                        </div>
-                                        <div class="swiper-pagination"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Portfolio 9 -->
+                        <!-- Portfolio 18_W2 -->
                         <div class=" portfolio-item filter-web">
                             <div class="img-card portfolio-wrap">
                                 <div class="overlay"></div>
-                                <img src="assets/img/portfolio/Excel_dashboard 2.jpg" class="img-fluid" alt="">
+                                <img src="assets/portfolio section/Web/Excel_Macros 1.jpg" class="img-fluid" alt="">
                                 <div class="info">
-                                    <h3>Data Analysis</h3>
-                                    <span>Youtube</span>
+                                    <h3>Downtime Analysis</h3>
+                                    <span>Sample Doc.</span>
                                 </div>
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/Excel_dashboard 2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="ri-add-line"></i></a>
+                                    <a href="assets/portfolio section/Web/Excel_Macros 1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Production Downtime Analysis</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Web/Excel_Macros 1.jpg" alt="">
+                                                <h4>Dashboard 1</h4>
+                                                <p>
+                                                    Summary
+                                                </p>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Web/Excel_Macros 1ii.jpg" alt="">
+                                                <h4>Dashboard 2</h4>
+                                                <p>
+                                                    Breakdown 1
+                                                </p>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Web/Excel_Macros 1iii.jpg" alt="">
+                                                <h4>Dashboard 3s</h4>
+                                                <p>
+                                                    Breakdown 1
+                                                </p>    
+                                            </div>
+                                        </div>
+                                        <div class="swiper-button-next swiper-btn">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </div>
+                                        <div class="swiper-button-prev swiper-btn">
+                                            <i class="fas fa-chevron-left"></i>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 19_W3 -->
+                        <div class=" portfolio-item filter-web">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/Web/Excel_Macros 1.jpg" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Downtime Analysis</h3>
+                                    <span>Sample Doc.</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/Web/Excel_Macros 1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Production Downtime Analysis</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Web/Excel_Macros 1.jpg" alt="">
+                                                <h4>Dashboard 1</h4>
+                                                <p>
+                                                    Summary
+                                                </p>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Web/Excel_Macros 1ii.jpg" alt="">
+                                                <h4>Dashboard 2</h4>
+                                                <p>
+                                                    Breakdown 1
+                                                </p>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Web/Excel_Macros 1iii.jpg" alt="">
+                                                <h4>Dashboard 3s</h4>
+                                                <p>
+                                                    Breakdown 1
+                                                </p>    
+                                            </div>
+                                        </div>
+                                        <div class="swiper-button-next swiper-btn">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </div>
+                                        <div class="swiper-button-prev swiper-btn">
+                                            <i class="fas fa-chevron-left"></i>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 20_W4 -->
+                        <div class=" portfolio-item filter-web">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/Web/Excel_Macros 1.jpg" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Downtime Analysis</h3>
+                                    <span>Sample Doc.</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/Web/Excel_Macros 1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Production Downtime Analysis</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Web/Excel_Macros 1.jpg" alt="">
+                                                <h4>Dashboard 1</h4>
+                                                <p>
+                                                    Summary
+                                                </p>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Web/Excel_Macros 1ii.jpg" alt="">
+                                                <h4>Dashboard 2</h4>
+                                                <p>
+                                                    Breakdown 1
+                                                </p>    
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Web/Excel_Macros 1iii.jpg" alt="">
+                                                <h4>Dashboard 3s</h4>
+                                                <p>
+                                                    Breakdown 1
+                                                </p>    
+                                            </div>
+                                        </div>
+                                        <div class="swiper-button-next swiper-btn">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </div>
+                                        <div class="swiper-button-prev swiper-btn">
+                                            <i class="fas fa-chevron-left"></i>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 21_T1 -->
+                        <div class=" portfolio-item filter-template">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/Templates/img/T1.jpg" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Goal Setter</h3>
+                                    <span>Template</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/Templates/img/T1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Templates"><i class="ri-add-line"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
                                 </div>
                             </div>
@@ -1243,38 +1959,756 @@
                                     <div class="swiper portfolio-data-swiper">
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
-                                                <img src="assets/img/portfolio/Excel_dashboard 1.jpg" alt="">
-                                                <h4>Dashboards</h4>
+                                                <img src="assets/portfolio section/Templates/img/T1.jpg" alt="">
+                                                <h4>Goal Setter</h4>
                                                 <p>
-                                                    cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
-                                                    vitae consectetur. Quia voluptates asperiores consequatur, fugiat iste architecto velit odit 
-                                                    deleniti. Officiis hic voluptatem vero tenetur assumenda at.
-                                                </p>    
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <img src="assets/img/portfolio/Excel_dashboard 3.jpg" alt="">
-                                                <h4>Dashboards</h4>
-                                                <p>
-                                                    cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
-                                                    vitae consectetur. Quia voluptates asperiores consequatur, fugiat iste architecto velit odit 
-                                                    deleniti. Officiis hic voluptatem vero tenetur assumenda at.
-                                                </p>    
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <img src="assets/img/portfolio/Excel_dashboard 2.jpg" alt="">
-                                                <h4>Dashboards</h4>
-                                                <p>
-                                                    cepestine Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias architecto necessitatibus 
-                                                    vitae consectetur. Quia voluptates asperiores consequatur, fugiat iste architecto velit odit 
-                                                    deleniti. Officiis hic voluptatem vero tenetur assumenda at.
-                                                </p>    
+                                                    This template helps to set periodic goals or agenda.
+                                                </p>
+                                                <div class="cv-btn">
+                                                    <a download="" href="assets/portfolio section/Templates/Items/Year Goals.xlsx" class="btn">Download This Templates<i class="fas fa-download"></i></a>
+                                                </div>       
                                             </div>
                                         </div>
-                                        <div class="swiper-button-next swiper-btn">
-                                            <i class="fas fa-chevron-right empty-btn"></i>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 22_T2 -->
+                        <div class=" portfolio-item filter-template">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/Templates/img/T1.jpg" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Goal Setter</h3>
+                                    <span>Template</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/Templates/img/T1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Templates"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Data Analysis</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Templates/img/T1.jpg" alt="">
+                                                <h4>Goal Setter</h4>
+                                                <p>
+                                                    This template helps to set periodic goals or agenda.
+                                                </p>
+                                                <div class="cv-btn">
+                                                    <a download="" href="assets/portfolio section/Templates/Items/Year Goals.xlsx" class="btn">Download This Templates<i class="fas fa-download"></i></a>
+                                                </div>       
+                                            </div>
                                         </div>
-                                        <div class="swiper-button-prev swiper-btn">
-                                            <i class="fas fa-chevron-left empty-btn"></i>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 23_T3 -->
+                        <div class=" portfolio-item filter-template">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/Templates/img/T1.jpg" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Goal Setter</h3>
+                                    <span>Template</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/Templates/img/T1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Templates"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Data Analysis</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Templates/img/T1.jpg" alt="">
+                                                <h4>Goal Setter</h4>
+                                                <p>
+                                                    This template helps to set periodic goals or agenda.
+                                                </p>
+                                                <div class="cv-btn">
+                                                    <a download="" href="assets/portfolio section/Templates/Items/Year Goals.xlsx" class="btn">Download This Templates<i class="fas fa-download"></i></a>
+                                                </div>       
+                                            </div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 24_T4 -->
+                        <div class=" portfolio-item filter-template">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/Templates/img/T1.jpg" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Goal Setter</h3>
+                                    <span>Template</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/Templates/img/T1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Templates"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Data Analysis</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Templates/img/T1.jpg" alt="">
+                                                <h4>Goal Setter</h4>
+                                                <p>
+                                                    This template helps to set periodic goals or agenda.
+                                                </p>
+                                                <div class="cv-btn">
+                                                    <a download="" href="assets/portfolio section/Templates/Items/Year Goals.xlsx" class="btn">Download This Templates<i class="fas fa-download"></i></a>
+                                                </div>       
+                                            </div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 25_T5 -->
+                        <div class=" portfolio-item filter-template">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/Templates/img/T1.jpg" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Goal Setter</h3>
+                                    <span>Template</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/Templates/img/T1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Templates"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Data Analysis</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Templates/img/T1.jpg" alt="">
+                                                <h4>Goal Setter</h4>
+                                                <p>
+                                                    This template helps to set periodic goals or agenda.
+                                                </p>
+                                                <div class="cv-btn">
+                                                    <a download="" href="assets/portfolio section/Templates/Items/Year Goals.xlsx" class="btn">Download This Templates<i class="fas fa-download"></i></a>
+                                                </div>       
+                                            </div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 26_T6 -->
+                        <div class=" portfolio-item filter-template">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/Templates/img/T1.jpg" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Goal Setter</h3>
+                                    <span>Template</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/Templates/img/T1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Templates"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Data Analysis</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Templates/img/T1.jpg" alt="">
+                                                <h4>Goal Setter</h4>
+                                                <p>
+                                                    This template helps to set periodic goals or agenda.
+                                                </p>
+                                                <div class="cv-btn">
+                                                    <a download="" href="assets/portfolio section/Templates/Items/Year Goals.xlsx" class="btn">Download This Templates<i class="fas fa-download"></i></a>
+                                                </div>       
+                                            </div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 27_T7 -->
+                        <div class=" portfolio-item filter-template">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/Templates/img/T1.jpg" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Goal Setter</h3>
+                                    <span>Template</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/Templates/img/T1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Templates"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Data Analysis</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Templates/img/T1.jpg" alt="">
+                                                <h4>Goal Setter</h4>
+                                                <p>
+                                                    This template helps to set periodic goals or agenda.
+                                                </p>
+                                                <div class="cv-btn">
+                                                    <a download="" href="assets/portfolio section/Templates/Items/Year Goals.xlsx" class="btn">Download This Templates<i class="fas fa-download"></i></a>
+                                                </div>       
+                                            </div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 28_T8 -->
+                        <div class=" portfolio-item filter-template">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/Templates/img/T1.jpg" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Goal Setter</h3>
+                                    <span>Template</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/Templates/img/T1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Templates"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Data Analysis</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Templates/img/T1.jpg" alt="">
+                                                <h4>Goal Setter</h4>
+                                                <p>
+                                                    This template helps to set periodic goals or agenda.
+                                                </p>
+                                                <div class="cv-btn">
+                                                    <a download="" href="assets/portfolio section/Templates/Items/Year Goals.xlsx" class="btn">Download This Templates<i class="fas fa-download"></i></a>
+                                                </div>       
+                                            </div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 29_T9 -->
+                        <div class=" portfolio-item filter-template">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/Templates/img/T1.jpg" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Goal Setter</h3>
+                                    <span>Template</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/Templates/img/T1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Templates"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Data Analysis</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Templates/img/T1.jpg" alt="">
+                                                <h4>Goal Setter</h4>
+                                                <p>
+                                                    This template helps to set periodic goals or agenda.
+                                                </p>
+                                                <div class="cv-btn">
+                                                    <a download="" href="assets/portfolio section/Templates/Items/Year Goals.xlsx" class="btn">Download This Templates<i class="fas fa-download"></i></a>
+                                                </div>       
+                                            </div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 30_T10 -->
+                        <div class=" portfolio-item filter-template">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/Templates/img/T1.jpg" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Goal Setter</h3>
+                                    <span>Template</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/Templates/img/T1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Templates"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Data Analysis</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Templates/img/T1.jpg" alt="">
+                                                <h4>Goal Setter</h4>
+                                                <p>
+                                                    This template helps to set periodic goals or agenda.
+                                                </p>
+                                                <div class="cv-btn">
+                                                    <a download="" href="assets/portfolio section/Templates/Items/Year Goals.xlsx" class="btn">Download This Templates<i class="fas fa-download"></i></a>
+                                                </div>       
+                                            </div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 31_T11 -->
+                        <div class=" portfolio-item filter-template">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/Templates/img/T1.jpg" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Goal Setter</h3>
+                                    <span>Template</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/Templates/img/T1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Templates"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Data Analysis</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Templates/img/T1.jpg" alt="">
+                                                <h4>Goal Setter</h4>
+                                                <p>
+                                                    This template helps to set periodic goals or agenda.
+                                                </p>
+                                                <div class="cv-btn">
+                                                    <a download="" href="assets/portfolio section/Templates/Items/Year Goals.xlsx" class="btn">Download This Templates<i class="fas fa-download"></i></a>
+                                                </div>       
+                                            </div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 32_T12 -->
+                        <div class=" portfolio-item filter-template">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/Templates/img/T1.jpg" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Goal Setter</h3>
+                                    <span>Template</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/Templates/img/T1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Templates"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Data Analysis</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Templates/img/T1.jpg" alt="">
+                                                <h4>Goal Setter</h4>
+                                                <p>
+                                                    This template helps to set periodic goals or agenda.
+                                                </p>
+                                                <div class="cv-btn">
+                                                    <a download="" href="assets/portfolio section/Templates/Items/Year Goals.xlsx" class="btn">Download This Templates<i class="fas fa-download"></i></a>
+                                                </div>       
+                                            </div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 33_T13 -->
+                        <div class=" portfolio-item filter-template">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/Templates/img/T1.jpg" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Goal Setter</h3>
+                                    <span>Template</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/Templates/img/T1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Templates"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Data Analysis</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Templates/img/T1.jpg" alt="">
+                                                <h4>Goal Setter</h4>
+                                                <p>
+                                                    This template helps to set periodic goals or agenda.
+                                                </p>
+                                                <div class="cv-btn">
+                                                    <a download="" href="assets/portfolio section/Templates/Items/Year Goals.xlsx" class="btn">Download This Templates<i class="fas fa-download"></i></a>
+                                                </div>       
+                                            </div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 34_T14 -->
+                        <div class=" portfolio-item filter-template">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/Templates/img/T1.jpg" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Goal Setter</h3>
+                                    <span>Template</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/Templates/img/T1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Templates"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Data Analysis</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Templates/img/T1.jpg" alt="">
+                                                <h4>Goal Setter</h4>
+                                                <p>
+                                                    This template helps to set periodic goals or agenda.
+                                                </p>
+                                                <div class="cv-btn">
+                                                    <a download="" href="assets/portfolio section/Templates/Items/Year Goals.xlsx" class="btn">Download This Templates<i class="fas fa-download"></i></a>
+                                                </div>       
+                                            </div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 35_T15 -->
+                        <div class=" portfolio-item filter-template">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/Templates/img/T1.jpg" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Goal Setter</h3>
+                                    <span>Template</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/Templates/img/T1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Templates"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Data Analysis</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Templates/img/T1.jpg" alt="">
+                                                <h4>Goal Setter</h4>
+                                                <p>
+                                                    This template helps to set periodic goals or agenda.
+                                                </p>
+                                                <div class="cv-btn">
+                                                    <a download="" href="assets/portfolio section/Templates/Items/Year Goals.xlsx" class="btn">Download This Templates<i class="fas fa-download"></i></a>
+                                                </div>       
+                                            </div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 36_T16 -->
+                        <div class=" portfolio-item filter-template">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/Templates/img/T1.jpg" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Goal Setter</h3>
+                                    <span>Template</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/Templates/img/T1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Templates"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Data Analysis</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Templates/img/T1.jpg" alt="">
+                                                <h4>Goal Setter</h4>
+                                                <p>
+                                                    This template helps to set periodic goals or agenda.
+                                                </p>
+                                                <div class="cv-btn">
+                                                    <a download="" href="assets/portfolio section/Templates/Items/Year Goals.xlsx" class="btn">Download This Templates<i class="fas fa-download"></i></a>
+                                                </div>       
+                                            </div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 37_T17 -->
+                        <div class=" portfolio-item filter-template">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/Templates/img/T1.jpg" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Goal Setter</h3>
+                                    <span>Template</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/Templates/img/T1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Templates"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Data Analysis</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Templates/img/T1.jpg" alt="">
+                                                <h4>Goal Setter</h4>
+                                                <p>
+                                                    This template helps to set periodic goals or agenda.
+                                                </p>
+                                                <div class="cv-btn">
+                                                    <a download="" href="assets/portfolio section/Templates/Items/Year Goals.xlsx" class="btn">Download This Templates<i class="fas fa-download"></i></a>
+                                                </div>       
+                                            </div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 38_T18 -->
+                        <div class=" portfolio-item filter-template">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/Templates/img/T1.jpg" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Goal Setter</h3>
+                                    <span>Template</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/Templates/img/T1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Templates"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Data Analysis</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Templates/img/T1.jpg" alt="">
+                                                <h4>Goal Setter</h4>
+                                                <p>
+                                                    This template helps to set periodic goals or agenda.
+                                                </p>
+                                                <div class="cv-btn">
+                                                    <a download="" href="assets/portfolio section/Templates/Items/Year Goals.xlsx" class="btn">Download This Templates<i class="fas fa-download"></i></a>
+                                                </div>       
+                                            </div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 39_T19 -->
+                        <div class=" portfolio-item filter-template">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/Templates/img/T1.jpg" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Goal Setter</h3>
+                                    <span>Template</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/Templates/img/T1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Templates"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Data Analysis</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Templates/img/T1.jpg" alt="">
+                                                <h4>Goal Setter</h4>
+                                                <p>
+                                                    This template helps to set periodic goals or agenda.
+                                                </p>
+                                                <div class="cv-btn">
+                                                    <a download="" href="assets/portfolio section/Templates/Items/Year Goals.xlsx" class="btn">Download This Templates<i class="fas fa-download"></i></a>
+                                                </div>       
+                                            </div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio 40_T20 -->
+                        <div class=" portfolio-item filter-template">
+                            <div class="img-card portfolio-wrap">
+                                <div class="overlay"></div>
+                                <img src="assets/portfolio section/Templates/img/T1.jpg" class="img-fluid" alt="">
+                                <div class="info">
+                                    <h3>Goal Setter</h3>
+                                    <span>Template</span>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/portfolio section/Templates/img/T1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Templates"><i class="ri-add-line"></i></a>
+                                    <a href="portfolio-details.html" title="More Details"><i class="ri-links-line"></i></a>
+                                </div>
+                            </div>
+                            <div class="portfolio-model flex-center">
+                                <div class="portfolio-model-body">
+                                    <i class="fas fa-times portfolio-close-btn"></i>
+                                    <div class="card-title">
+                                        <h3>Data Analysis</h3>
+                                        <a href=""><i class="ri-github-fill"></i></a>
+                                    </div>
+                                    <div class="swiper portfolio-data-swiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img src="assets/portfolio section/Templates/img/T1.jpg" alt="">
+                                                <h4>Goal Setter</h4>
+                                                <p>
+                                                    This template helps to set periodic goals or agenda.
+                                                </p>
+                                                <div class="cv-btn">
+                                                    <a download="" href="assets/portfolio section/Templates/Items/Year Goals.xlsx" class="btn">Download This Templates<i class="fas fa-download"></i></a>
+                                                </div>       
+                                            </div>
                                         </div>
                                         <div class="swiper-pagination"></div>
                                     </div>
@@ -1283,6 +2717,7 @@
                         </div>
                     </div>
                 </div>
+
                 <!--Get in touch-->
                 <div class="get-in-touch sub-section">
                     <div class="container">
@@ -1300,6 +2735,7 @@
                         </div>
                     </div>
                 </div>
+                
                 <!-- === Testimonials Section === -->
                 <div id="testimonials" class="testimonials sub-section section-bg">
                     <div class="container">
@@ -1308,7 +2744,11 @@
                             <h1 class="section-title-01-sbg flex-center">Our Clients</h1>
                             <h1 class="section-title-02-sbg flex-center">Our Clients</h1>
                             <h2>Our Clients Reviews</h2>
-                            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                            <p>
+                                We’re dedicated to delivering impactful solutions and exceptional service across every project. 
+                                Here’s what some of our clients have to say about working with us. Their feedback fuels our commitment 
+                                to continuous improvement and innovation.
+                            </p>
                         </div>
                         <!-- Content -->
                         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -1317,11 +2757,13 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial-item" data-aos="fade-up">
                                         <p>
-                                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                        Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                            Their analytical skills and project management expertise streamlined our operations 
+                                            immensely. They identified key improvement areas and led our team through actionable steps. 
+                                            Our business processes are now more efficient than ever!
+                                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                         </p>
-                                        <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                                        <img src="testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
                                         <h3>Saul Goodman</h3>
                                         <h4>Ceo &amp; Founder</h4>
                                     </div>
@@ -1330,11 +2772,13 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
                                         <p>
-                                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                        Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                            We were struggling with data management in Excel, but they created tailored solutions 
+                                            that saved us hours of work each week. Now our team can analyze data quickly and make 
+                                            informed decisions with ease.
+                                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                         </p>
-                                        <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                                        <img src="testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
                                         <h3>Sara Wilsson</h3>
                                         <h4>Designer</h4>
                                     </div>
@@ -1343,11 +2787,13 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
                                         <p>
-                                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                        Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                            They transformed our brand with a fresh, modern look that truly captures our identity. 
+                                            The logo, color palette, and overall design have helped us connect with clients in a whole 
+                                            new way. We couldn’t be happier!
+                                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                         </p>
-                                        <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                                        <img src="testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
                                         <h3>Jena Karlis</h3>
                                         <h4>Store Owner</h4>
                                     </div>
@@ -1356,11 +2802,13 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
                                         <p>
-                                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                        Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                            Our website was outdated, and our systems were slow, but they developed an incredible website 
+                                            and automated multiple processes. Now, our customers can interact with us seamlessly, 
+                                            and our internal workflows are much faster
+                                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                         </p>
-                                        <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                                        <img src="testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
                                         <h3>Matt Brandon</h3>
                                         <h4>Freelancer</h4>
                                     </div>
@@ -1369,12 +2817,29 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
                                         <p>
-                                        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                        Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                            Their expertise in production planning has optimized our workflow, cutting down lead times 
+                                            significantly. The new database system they designed is user-friendly and supports our growing needs. 
+                                            Highly recommend!
+                                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                         </p>
-                                        <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                                        <h3>John Larson</h3>
+                                        <img src="testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                                        <h3>Peter Larson</h3>
+                                        <h4>Production Manager</h4>
+                                    </div>
+                                </div>
+                                <!-- testimonial item  -->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
+                                        <p>
+                                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                            We've worked with some of the most popular brands in the tech industry, and we're thrilled to have worked with 
+                                            cepestine. They've helped us create innovative solutions and have provided us with valuable insights and 
+                                            support throughout our growth process. We're grateful for their expertise and commitment to our success.
+                                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                        </p>
+                                        <img src="testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                                        <h3>John Peterson</h3>
                                         <h4>Entrepreneur</h4>
                                     </div>
                                 </div>
@@ -1510,10 +2975,10 @@
     <script src="swiper-bundle.min.js"></script>
     <script src="typed.umd.js"></script>
     <script src="noframework.waypoints.js"></script>
-    <script src="validate.js"></script>
+    <script src="php-email-form/validate.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script> 
 
     <!-- === Extermal Scripts === -->
-    <script src="script2.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
