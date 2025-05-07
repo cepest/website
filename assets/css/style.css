@@ -403,7 +403,7 @@ li{
 #hero{
   width: 100%;
   height: 100vh;
-  background: url("/website/background.jpg") top center;
+  background: url("background.jpg") top center;
   background-size: cover;
   /* background-attachment: fixed; */
 }
